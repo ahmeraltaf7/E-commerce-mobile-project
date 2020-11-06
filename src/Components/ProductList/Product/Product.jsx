@@ -6,6 +6,7 @@ import "./Product.scss";
 import { GlobalContext } from "../../../Context/GlobalState";
 import PropTypes from "prop-types";
 import Moodal from "../../Modal/Modal";
+// import imgage from '../../../img/product-1.png';
 
 const Product = ({ products }) => {
   const { showDetail, addToCart, addToModal } = useContext(GlobalContext);
@@ -15,7 +16,7 @@ const Product = ({ products }) => {
 
   return (
     <>
-      <div className="col-8 col-md-4 col-lg-3  mx-auto">
+      <div className="col-8 col-md-4 col-lg-3 mx-auto">
         <div className="card border-primary my-5">
           <Link to="/details">
             <img
