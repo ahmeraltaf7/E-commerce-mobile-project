@@ -1,0 +1,22 @@
+@import './Variables';
+
+body {
+    font-family: 'Oswald', sans-serif !important;
+    background: $mainDark !important;
+    color: $mainWhite !important;
+    overflow-x: hidden;
+}
+
+.text-title{
+    letter-spacing: 0.8rem;
+    text-transform: uppercase;
+    color: $mainWhite;
+}
+
+.text-blue{
+    color: $mainBlue;
+}
+
+.text-bright{
+    color: $lightBlue;
+}

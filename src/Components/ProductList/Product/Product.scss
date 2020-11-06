@@ -1,0 +1,33 @@
+@import "../../../Scss/Variables";
+
+.card {
+  border: 2px solid #007bff !important;
+  background-color: #e9e4f0 !important;
+  transition: all 0.4s linear;
+
+  .btn {
+    letter-spacing: 0.2rem !important;
+    border-radius: 0 !important;
+    border: 1px solid #1a96cb !important;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    transition: all 0.4s linear;
+
+    &:hover {
+      border: 1px solid $mainBlue !important;
+    }
+  }
+
+  .card-img-top {
+    overflow: hidden;
+    transition: all 0.4s linear;
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
+  &:hover {
+    -webkit-box-shadow: 0px 0px 9px 8px rgba(0, 123, 255, 0.93);
+    -moz-box-shadow: 0px 0px 9px 8px rgba(0, 123, 255, 0.93);
+    box-shadow: 0px 0px 9px 5px rgba(0, 123, 255, 0.93);
+  }
+}

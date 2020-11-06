@@ -1,0 +1,14 @@
+@import "../../Scss/Variables";
+
+.nav-item {
+  .btn {
+    letter-spacing: 0.5rem !important;
+    border-radius: 0 !important;
+    border: 2px solid #1a96cb !important;
+    transition: all 0.5s linear;
+
+    &:hover {
+      border: 2px solid $mainBlue !important;
+    }
+  }
+}
